@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/soy_lito"
   s.source       = { :git => "https://github.com/litoarias/HAPlayerView.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
   s.source_files = 'HAPlayerView/HABackgroundPlayerView.swift'
 end
